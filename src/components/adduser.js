@@ -31,7 +31,7 @@ function Adduser(){
             
         }
         try{
-            axios.post('/add',userdata);
+            axios.post('https://d-backend-f4ce.onrender.com/add',userdata);
             setuser({
                 Name:"",
                 Email:"",
